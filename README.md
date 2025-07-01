@@ -25,7 +25,7 @@ export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 alias bb='colcon build && source install/setup.bash'
 alias delete_workspace='rm -rf build install log; echo "Done!"'
 alias bb_save='colcon build --executor sequential --parallel-workers 4'
-export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/root/devel_ws/src/moveit2_2025/ur5/
-export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/root/devel_ws/src/moveit2_2025/ur5/
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/hnin/devel_ws/src/moveit2_2025/ur5/
+export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/home/hnin/devel_ws/src/moveit2_2025/ur5/
 
 ```
